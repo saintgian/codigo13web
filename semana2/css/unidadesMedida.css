@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial;
+  }
+
+  .banner {
+    background-color: rgb(255, 183, 49);
+    height: 40vh;
+  }
+
+  .titulo {
+    font-size: 4em;
+    color: rebeccapurple;
+  }
+
+  .parrafo {
+    font-size: 50px;
+  }
+
+  .banner-medio {
+    height: 20vh;
+    background-color: rgb(255, 49, 210);
+  }
+
+  .banner-dos {
+    background-color: rgb(36, 201, 216);
+    height: 40vh;
+  }
+  .banner-tres {
+    /* 1 -100 => A una pantalla */
+    height: 300vh;
+    background-color: rgb(224, 255, 49);
+  }

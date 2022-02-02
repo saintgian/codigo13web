@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--va a contener las etquetas con ceo-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <h1>TABLAS</h1>
+    <!--table: cabecera de la tabla-->
+    <!--thead: tr - th -->
+    <!--body: tr - td-->
+    <!--BORDER: atributo tamaño de borde la tabla-->
+    <!--bgcolor: color a la table-->
+    <table border="5" >
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>correp</th>
+                <th>direccion</th>
+                <th>celular</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td bgcolor="faed27">Gianmarco</td>
+                <td>Santillan</td>
+                <td>gmarcsan@gmail.com</td>
+                <td>av angamos</td>
+                <td>99999999</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--RAWNPAN: HORIZONTAL Y COLSPAN: VERTICAL-->
+    <table border>
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Ingles</td>
+                <td>Pepe</td>
+                <td>Zapata</td>
+                <td>pepe@gmail</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>Zapata</td>
+                <td>juan@gmail</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Mate</td>
+                <td>Mateo</td>
+                <td>Zapata</td>
+                <td>juan@gmail</td>
+            </tr>
+            <tr>
+                <td>Mateo</td>
+                <td>Zapata</td>
+                <td>juan@gmail</td>
+            </tr>
+            <tr>
+                <td>Mateo</td>
+                <td>Zapata</td>
+                <td>juan@gmail</td>
+            </tr>
+            <tr>
+                <td>Mateo</td>
+                <td>Zapata</td>
+                <td>juan@gmail</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Fisica</td>
+                <td colspan="2">Mateo Zapata</td>
+                <td>juan@gmail</td>
+            </tr>
+            <tr>
+                <td colspan="2">Mateo Zapata</td>
+                <td>juan@gmail</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </table>
+
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+
+<body>
+    <h1>FORMULARIOS</h1>
+    <!--formularios-->
+    <!--REQUIRED: atributo que obliga sierta informacion del input-->
+    <!--READONLY: ATRIBUTO PARA BLOQUEAR TEXTO, SI SE ENVIA AL SERVIDOR-->
+    <!--DISABLED: ATRUBTO BLOUQEADO QUE NO SE ENVIA AL SERVIDOR-->
+    <!--MINLENGTH: MINIMO DE CARACTERES-->
+    <!--MAXLENGTH: MAXIMO PARA CARACTERES-->
+    <!--step: numero de pasos que se debe avanzar-->
+    <form action="" method="">
+        <input type="text" placeholder="ingrese su nombre" name="nombre" id="mi_nombre" required>
+        <input type="email" placeholder="ingrese su email" name="email" id="mi_email">
+        <input type="password" placeholder="ingrese su contraseña" name="password" id="mi_password">
+        <input type="text" name="ip" value="127.0.0.1" readonly>
+        <input type="text" name="numero_de_hijos" value="10" disabled>
+        <input type="text" placeholder="ingrese su dni" name="dni" minlength="8">
+        <input type="number" step="5" minlength="0" max="20" placeholder="pasos">
+        <input type="submit" value="ingresar">
+    </form>
+
+</body>
+
+</html>

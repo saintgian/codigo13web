@@ -1,0 +1,99 @@
+body {font-family: Helvetica;}
+h1 {background-color: rgba(0, 0, 0, 0.363);color: red;}
+/* atributo "color" sirve para cambiar de color el texto
+*/
+
+h2 {background-color: #22e8dc; color: rgb(160, 238, 179);}
+h3 {background-color: yellow; color: 34, 182, 66}
+a {background-color: yellowgreen; color: pink;}
+body {font-family: Helvetica; }
+/* la forma correcta 
+en la cual los enlaces un id 
+en cSS es usando el # */
+#contenedor-uno { background-color: #09a; }
+#contenedor-dos {background-color: yellow;}
+/* Reto al contenerdor poner un fondo amarillo */
+/* un id se usa cuando se tiene un estilo
+ especifico para un solo elemento */
+/* Para poder compartir estilos debemos usar clases "class" */
+ /* Para poder a un elemento que tiene que tiene un class usamos el . */
+.contenedor-principal {background-color: violet; padding: 30px;}
+/* padding: espacio interno,
+osea del boton hacia afuera */
+ /* none: anula la propiedad o atributo */
+.btn-Registro1 {background-color: blue; color: white; border: none;}
+.btn-Registro2 {background-color: #faed27; color: black; padding: 12px; border-radius: 10px; border: none;}
+.btn-tamaño {font-size: 25px;}
+/* se puede usar dos clases en el mismo
+codigo "clase1 clase2" */
+/*div: contenedor generico*/
+/* font-size: cambiar tamaño del 
+texto */
+
+.contenedor-form {
+    border: 5px solid rgb(3, 37, 35);
+    border-radius: 15px;
+  }
+  /* border: cubre todo el codigo */
+
+  .contenedor-interno-form {
+    padding: 15px;
+    /* left: izquierda */
+    /* center: centro */
+    /* right: derecha */
+    /* esto lo de hace de forma horizontal */
+    text-align: center;
+  }
+  .titulo-form {
+    color: rgb(8, 185, 82);
+    background-color: #fff;
+  }
+  .input-form {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px #000 solid;
+    width: 400px;
+  }
+
+  .input-codigo {
+    width: 100px;
+  }
+
+  .input-numero {
+    width: 275px;
+  }
+
+  /* reto para ustedes denle estilos
+  al boton */
+
+  .btn-crear-usuario {
+    background-color: #faed27;
+    color: #000;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none; }
+
+  /* Pseudoclases */
+  /* Los elementos tienen propiedades internas por ejemplo el hover
+  hover: es la propiedad que detecta cuando el mouse esta sobre el elemento, es decir estos estilos se aplicaran solo si el mouse esta sobre dicho elemento */
+  /* text-decoration: quita el subrayado*/
+  .btn-ingresar {padding: 5px; border-radius: 10px; color: black; background-color: yellowgreen;}
+  .btn-ingresar:hover{background-color: #f01; color: black; text-decoration:none; padding: 50px;
+  border-radius: 10px; }
+  /* Los elementos como el a tienen pesudoclases como:
+  link
+  visited
+  hover
+  active */
+  /* Estas psudoclases aplican para todos los elementos de html */
+
+div:hover {background-color: red;}
+
+.contenedor-interno-form h1 {border: 2px #000 solid;}
+
+/* first-child: busca el primer elmento */
+
+h1:first-child {color: purple;}
+
+input:first-of-type {color: red;}
