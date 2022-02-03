@@ -1,8 +1,11 @@
 * {margin: 0%; padding: 0%;}
 
 body {font-family: sans-serif;}
-.main-navegacion {display: flex; justify-content: space-between; align-items: center;}
+.main-navegacion {display: flex;
+     justify-content: space-between;
+      align-items: center;}
 .nav ul {display: flex; list-style: none;}
+.nav ul>li {margin: 10px;}
 .section-principal {
     display: flex; flex-direction: row; flex-wrap: wrap;
 }
@@ -27,4 +30,11 @@ justify-content: space-around: mas bordes
 justify-content: space-between: bordes a los costados
  */
  .section-dos div {border: 2px solid black; height: 10vh; background-color: chocolate;}
-.flex-grow {}
+.flex-grow { flex-grow: 2
+    ; }
+
+.flex-shrink {
+    flex-shrink: 1; background-color: beige
+    !important; }
+
+/*IMPORTANT: ATRIBUTO PARA DAR PRIORIDAD*/
