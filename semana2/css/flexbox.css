@@ -1,0 +1,30 @@
+* {margin: 0%; padding: 0%;}
+
+body {font-family: sans-serif;}
+.main-navegacion {display: flex; justify-content: space-between; align-items: center;}
+.nav ul {display: flex; list-style: none;}
+.section-principal {
+    display: flex; flex-direction: row; flex-wrap: wrap;
+}
+/* Flex: alinea los elementos en fila (raw)
+por default
+flex-direction: row, comienza al reves  
+flex-direction: colum (hace que los elementos se ponga 
+debajo del otro)
+felx-direction: colum inverse */
+/* controla la direccion en como vemos
+nuestro contenido */
+.section-principal div {width: 25%;}
+.section-principal div p {border: 2px solid black;}
+.section-dos { border: 2px black solid ;display: flex; align-items: center;
+height: 50vh; justify-content: space-around;}
+/*align-items: flex-start: allinea hacia arriba
+align-items: flex-center: alinea al centro del bloque 
+align-items: flex-end: alinea hacia la parte nferior
+justify-content: center: alinea de forma horizontal
+align-items: flex-start: allinea hacia arriba
+justify-content: space-around: mas bordes
+justify-content: space-between: bordes a los costados
+ */
+ .section-dos div {border: 2px solid black; height: 10vh; background-color: chocolate;}
+.flex-grow {}

@@ -6,14 +6,21 @@
   body {
     font-family: Arial;
   }
+  /*px: unidad de medida en pixeles
+    em: medida en relacion a la fuente
+rem: usado para titulos*/
 
   .banner {
     background-color: rgb(255, 183, 49);
-    height: 40vh;
+    height: 50vh;
+    width: 100%;
   }
-
+/*unidade de medida vh: 
+viewport-height: 100vh toma en 
+medida toda la pantalla, toma como referencia a la vista actual
+viewport-wifth: ancho de la pantalla*/
   .titulo {
-    font-size: 4em;
+    font-size: 3em;
     color: rebeccapurple;
   }
 
@@ -23,15 +30,16 @@
 
   .banner-medio {
     height: 20vh;
-    background-color: rgb(255, 49, 210);
+    background-color: rgb(255, 49, 210); width: 60%;
   }
 
   .banner-dos {
     background-color: rgb(36, 201, 216);
-    height: 40vh;
+    height: 30vh; width: 70%;
   }
   .banner-tres {
     /* 1 -100 => A una pantalla */
     height: 300vh;
-    background-color: rgb(224, 255, 49);
+    background-color: rgb(224, 255, 49); width: 80%;
   }
+.banner-cinco {width: 300px; height: 300px; border: 2px solid black;}

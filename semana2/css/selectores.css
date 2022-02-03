@@ -1,30 +1,23 @@
-.contenedor p {
-    color: #f01;
-  }
-  
-  .contenedor-dos h2 {
-    color: #aba;
-  }
-  
-  .contenedor-tres a img {
-    border: 2px solid rgb(27, 117, 235);
-  }
+/*margin: de afuera a dentro
+lo contrario de padding*/
+/* "*": engloba todo el codigo, es mas 
+que el body */
+* {margin: 0px; padding: 0;}
+
+body {font-family: helvetica;}
+
+.contenedor p {color: #f01;}
+.contenedor-dos h2 {color: #aba;}
+
+.contenedor-tres a img {border: 2px solid rgb(27, 117, 235);}
   /* ul > li {
   border: 2px solid rgb(0, 255, 170);
 } */
+.menu-navegacion {margin: 20px;}
 
-.link-navegacion {
-    border: 2px solid rgb(0, 255, 170);
-  }
-  
-  input[type="email"] {
-    background-color: brown;
-  }
-  
-  input[type="text"] {
-    color: rgb(0, 255, 170);
-  }
-  
-  input[type="password"] {
-    color: rgb(0, 255, 170);
-  }
+
+.link-navegacion {border: 2px solid rgb(0, 255, 170); }
+
+input[type="email"] {background-color: brown;}
+input[type="text"] {color: rgb(0, 255, 170);}
+input[type="password"] {color: rgb(0, 255, 170);}

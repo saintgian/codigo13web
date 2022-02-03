@@ -1,0 +1,21 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {font-family: 'Josefin Sans', sans-serif; }
+
+.contenedor-form {border: 3px solid blue;
+background-color: yellowgreen;
+height: 100vh;}
+
+input {display:block ; 
+    margin: 10px; 
+    border: 2px solid black;
+padding: 10px;}
+
+/*DISPLAY:BLOCK: Vuelve a los elementos
+inline un bloque. */
+
+.contenedor-uno {background-color: turquoise; 
+    height: 30vh;}

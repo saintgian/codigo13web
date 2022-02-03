@@ -1,3 +1,7 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 body {
   font-family: Helvetica;
 }
@@ -8,6 +12,8 @@ body {
   padding: 10px;
   text-decoration: none;
   border-radius: 5px;
+  margin: 20px;
+
 }
 
 .link-referencia:hover {
@@ -15,7 +21,9 @@ body {
   color: #fff;
 }
 
-.contenedor-principal {text-align: center;}
+.contenedor-principal {text-align: center;
+height: 100vh; 
+}
 .contenedor-principal p {font-size: 20px;}
 /* .contenedor-principal p {
   font-size: 18px;
@@ -34,3 +42,32 @@ body {
   color: #000;
   text-decoration: none;
 }
+
+.imagen-programador {border-radius: 8px;
+margin-top: 20px;}
+
+/* margin-top: da margen solo a la
+parte superior
+margin-left: izquierda */
+
+.contenedor-clases {
+height: 100vh; background-color: #edef00;
+;}
+
+.lista-semanas {
+  margin: 40px; padding: 40px;
+}
+
+h3 {margin: 20px;
+font-size: 3em;}
+/*LIST-STYLE:quita los puntos a las 
+listas */
+
+.lista-semanas li {
+  padding: 20px;
+  list-style: none;
+}
+
+.divisor {margin: 20px; height: 4px; background-color: black;
+border-radius: none; border-radius: 5px;}
+
