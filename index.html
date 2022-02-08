@@ -1,74 +1,134 @@
-<html>
-
-<head>
+<!-- ESTRUCTURA DE HTML -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Va a contener la etiquetas pero el SEO -->
     <meta charset="utf-8" />
-    <meta name="description" content="Esta pagina es donde estoy aprendiendo HTML, CSS y JS" />
+    <meta
+      name="description"
+      content="Esta pagina es donde estoy aprendiendo HTML, CSS y JS"
+    />
     <meta name="robots" content="" />
     <meta name="googlebot" content="" />
     <meta name="keywords" content="LINDER HASSINGER, HTML, CSS, JS, CODIGO" />
-    <title>Codigo Front 13</title>
+    <title>Mi portafolio</title>
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@linder3hs" />
     <meta name="twitter:title" content="Mi pagina web" />
-    <meta name="twitter:description" content="Esta pagina es donde estoy aprendiendo HTML, CSS y JS" />
-    <meta name="twitter:image"
-        content="https://media-exp1.licdn.com/dms/image/C4E1BAQEfNIXEf_JoKg/company-background_10000/0?e=2159024400&v=beta&t=PhtZQJ8QA5Wy2lQzlfJL166pSeK_i3q2qfkD-xOMCcc" />
+    <meta
+      name="twitter:description"
+      content="Esta pagina es donde estoy aprendiendo HTML, CSS y JS"
+    />
+    <meta
+      name="twitter:image"
+      content="https://media-exp1.licdn.com/dms/image/C4E1BAQEfNIXEf_JoKg/company-background_10000/0?e=2159024400&v=beta&t=PhtZQJ8QA5Wy2lQzlfJL166pSeK_i3q2qfkD-xOMCcc"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-</head>
-
-<body>
-    <!--La etiqueta del Titulo h1 - h6-->
-
-    <div class="contenedor-principal">
-        <h1>Mi portafolio</h1>
-        <p>
-            Hola mi nombre es Gianmarco Santillan.
+  </head>
+  <!-- esta etiqueta nos permite escribir css dentro de un html -->
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="">Works</a>
+          </li>
+          <li>
+            <a href="">Blog</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="banner">
+      <div>
+        <h1 class="title">Hi, I'm Gianmarco,</h1>
+        <h1 class="title">Network Enginner</h1>
+        <p class="resume">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
         </p>
-        <img src="./imagenes/5edits.jpg" class="imagen-perfil" alt="" width="250" />
-        <p>
-            <a class="btn-github" href="https://github.com/saintgian" target="_blank">
-                <img src="./imagenes/25231.png" alt="" width="15" />
-                GitHub
-            </a>
-        </p>
-        <img class="imagen-programador"
-            src="https://dinahosting.com/blog/cont/uploads/2018/06/lenguajes-de-programaci%C3%B3n-1-1.jpg" width=200px
-            alt="">
-    </div>
-
-    <!--Lista en Html-->
-    <!--Ul: son listas.-->
-    <!--Ol li: listas ordenadas (1,2,3)-->
-    <!--Ul li: Lista no ordenada-->
-    <section class="contenedor-clases">
-        <div class="lista-semanas">
-            <ul>
-                <li>
-                    <h5>Semana 1</h5>
-                    <img src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png" alt="semana1"
-                        width="80" />
-                </li>
-                <li>
-                    <h5>Semana 2</h5>
-                    <img src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png" alt="semana1"
-                        width="80" />
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h3>Temas semana 1</h3>
-            <a class="link-referencia" href="./semana 1/inputs.html">Link para inputs</a>
-            <a class="link-referencia" href="./semana 1/form.html">Link a formularios</a>
-            <a class="link-referencia" href="./semana 1/tablas.html">Link a Tablas</a>
-        </div>
-        <!--HR: LINEA DIVISORA-->
-        <hr class="divisor">
-        <div>
-            <h3>Temas semana 2</h3>
-            <a class="link-referencia" href="./semana2/index.html">Introducción a CSS</a>
-        </div>
+        <button class="btn-primary">Download Resume</button>
+      </div>
+      <div>
+        <img class="img-profile" src="./imagenes/5edits.jpg" alt="" />
+      </div>
     </section>
-</body>
+    <section>
+      <div class="section-works">
+        <h4 class="text-works">Features works</h4>
+        <div class="card">
+          <div>
+            <a class="link-portafolio" href="./reto1/reto1.html">
+              <img src="./reto1/design/desktop-design.jpg" alt="" />
+            </a>
+          </div>
+          <div class="container-detail">
+            <a class="link-portafolio" href="./reto1/reto1.html">
+              <h2 class="titulo-reto">Reto 1 - NFT Design</h2>
+            </a>
 
+            <p>
+              <span class="label-dark">2022</span>
+              <span class="text-light">&nbsp;&nbsp;&nbsp;NFT Design</span>
+            </p>
+            <p class="resume">
+              Este reto fue hecho en front-end mentor usando HTML y CSS
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="card">
+          <div>
+            <a class="link-portafolio" href="./reto2/reto2.html">
+              <img src="./reto2/design/desktop-design.jpg" alt="" />
+            </a>
+          </div>
+          <div class="container-detail">
+            <a class="link-portafolio" href="./reto2/reto2.html">
+              <h2 class="titulo-reto">Reto 2 - Build The Cominuty</h2>
+            </a>
+            <p>
+              <span class="label-dark">2022</span>
+              <span class="text-light">&nbsp;&nbsp;&nbsp;NFT Design</span>
+            </p>
+            <p class="resume">
+              Este reto fue hecho en front-end mentor usando HTML y CSS
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="card">
+          <div>
+            <a class="link-portafolio" href="./reto3/reto3.html">
+              <img src="./reto3/design/desktop-design.jpg" alt="" />
+            </a>
+          </div>
+          <div class="container-detail">
+            <a class="link-portafolio" href="./reto3/reto3.html">
+              <h2 class="titulo-reto">Reto 3 - Comments</h2>
+            </a>
+            <p>
+              <span class="label-dark">2022</span>
+              <span class="text-light">&nbsp;&nbsp;&nbsp;NFT Design</span>
+            </p>
+            <p class="resume">
+              Este reto fue hecho en front-end mentor usando HTML y CSS
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+  </body>
 </html>
